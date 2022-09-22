@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB390B6928DB64E5006B42BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB390B6828DB64E5006B42BA /* ContentView.swift */; };
+		EB390B6B28DB64E6006B42BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB390B6A28DB64E6006B42BA /* Assets.xcassets */; };
+		EB390B6F28DB64E6006B42BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB390B6E28DB64E6006B42BA /* Preview Assets.xcassets */; };
+		EB390B8128DB6538006B42BA /* IslandCompassWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB390B8028DB6538006B42BA /* IslandCompassWidget.swift */; };
+		EB390B8428DB6539006B42BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB390B8328DB6539006B42BA /* Assets.xcassets */; };
+		EB390B8628DB6539006B42BA /* IslandCompassWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = EB390B8228DB6538006B42BA /* IslandCompassWidget.intentdefinition */; };
+		EB390B8728DB6539006B42BA /* IslandCompassWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = EB390B8228DB6538006B42BA /* IslandCompassWidget.intentdefinition */; };
+		EB390B9128DB6637006B42BA /* Markers.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB390B9028DB6637006B42BA /* Markers.swift */; };
+		EB390B9228DB6637006B42BA /* Markers.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB390B9028DB6637006B42BA /* Markers.swift */; };
+		EB390B9428DB6723006B42BA /* CompassMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB390B9328DB6723006B42BA /* CompassMarkerView.swift */; };
+		EB390B9528DB6723006B42BA /* CompassMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB390B9328DB6723006B42BA /* CompassMarkerView.swift */; };
+		EB390B9728DB6B4E006B42BA /* CompassHeading.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB390B9628DB6B4E006B42BA /* CompassHeading.swift */; };
+		EB390B9828DB6B4E006B42BA /* CompassHeading.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB390B9628DB6B4E006B42BA /* CompassHeading.swift */; };
+		EB390B9D28DB8122006B42BA /* ActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB390B9C28DB8122006B42BA /* ActivityAttributes.swift */; };
+		EB390B9E28DB8122006B42BA /* ActivityAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB390B9C28DB8122006B42BA /* ActivityAttributes.swift */; };
+		EB390BA328DB8E4D006B42BA /* LockScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB390BA228DB8E4D006B42BA /* LockScreenView.swift */; };
+		EB390BA428DB8E4D006B42BA /* LockScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB390BA228DB8E4D006B42BA /* LockScreenView.swift */; };
+		EB390BA628DB90A5006B42BA /* IslandCompassApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB390BA528DB90A5006B42BA /* IslandCompassApp.swift */; };
+		EB390BA728DBE129006B42BA /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB390B7D28DB6538006B42BA /* SwiftUI.framework */; };
+		EB390BAA28DBE12A006B42BA /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB390B7B28DB6538006B42BA /* WidgetKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB390B8828DB6539006B42BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB390B5B28DB64E5006B42BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB390B7828DB6538006B42BA;
+			remoteInfo = IslandCompassWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EB390B8E28DB6539006B42BA /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EB390B6328DB64E5006B42BA /* IslandCompass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IslandCompass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB390B6828DB64E5006B42BA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EB390B6A28DB64E6006B42BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB390B6C28DB64E6006B42BA /* IslandCompass.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IslandCompass.entitlements; sourceTree = "<group>"; };
+		EB390B6E28DB64E6006B42BA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EB390B7928DB6538006B42BA /* IslandCompassWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = IslandCompassWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB390B7B28DB6538006B42BA /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		EB390B7D28DB6538006B42BA /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		EB390B8028DB6538006B42BA /* IslandCompassWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslandCompassWidget.swift; sourceTree = "<group>"; };
+		EB390B8228DB6538006B42BA /* IslandCompassWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = IslandCompassWidget.intentdefinition; sourceTree = "<group>"; };
+		EB390B8328DB6539006B42BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB390B8528DB6539006B42BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB390B8F28DB655B006B42BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		EB390B9028DB6637006B42BA /* Markers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Markers.swift; sourceTree = "<group>"; };
+		EB390B9328DB6723006B42BA /* CompassMarkerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassMarkerView.swift; sourceTree = "<group>"; };
+		EB390B9628DB6B4E006B42BA /* CompassHeading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassHeading.swift; sourceTree = "<group>"; };
+		EB390B9C28DB8122006B42BA /* ActivityAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityAttributes.swift; sourceTree = "<group>"; };
+		EB390BA228DB8E4D006B42BA /* LockScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LockScreenView.swift; path = IslandCompassWidget/LockScreenView.swift; sourceTree = SOURCE_ROOT; };
+		EB390BA528DB90A5006B42BA /* IslandCompassApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslandCompassApp.swift; sourceTree = "<group>"; };
+		EB390BAC28DBE1EB006B42BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = IslandCompassWidget/Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB390B6028DB64E5006B42BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB390B7628DB6538006B42BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB390BA728DBE129006B42BA /* SwiftUI.framework in Frameworks */,
+				EB390BAA28DBE12A006B42BA /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB390B5A28DB64E5006B42BA = {
+			isa = PBXGroup;
+			children = (
+				EB390BAC28DBE1EB006B42BA /* Info.plist */,
+				EB390B6528DB64E5006B42BA /* IslandCompass */,
+				EB390B7F28DB6538006B42BA /* IslandCompassWidget */,
+				EB390B7A28DB6538006B42BA /* Frameworks */,
+				EB390B6428DB64E5006B42BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB390B6428DB64E5006B42BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB390B6328DB64E5006B42BA /* IslandCompass.app */,
+				EB390B7928DB6538006B42BA /* IslandCompassWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB390B6528DB64E5006B42BA /* IslandCompass */ = {
+			isa = PBXGroup;
+			children = (
+				EB390B8F28DB655B006B42BA /* Info.plist */,
+				EB390B9628DB6B4E006B42BA /* CompassHeading.swift */,
+				EB390B9C28DB8122006B42BA /* ActivityAttributes.swift */,
+				EB390B6828DB64E5006B42BA /* ContentView.swift */,
+				EB390BA228DB8E4D006B42BA /* LockScreenView.swift */,
+				EB390BA528DB90A5006B42BA /* IslandCompassApp.swift */,
+				EB390B9028DB6637006B42BA /* Markers.swift */,
+				EB390B9328DB6723006B42BA /* CompassMarkerView.swift */,
+				EB390B6A28DB64E6006B42BA /* Assets.xcassets */,
+				EB390B6C28DB64E6006B42BA /* IslandCompass.entitlements */,
+				EB390B6D28DB64E6006B42BA /* Preview Content */,
+			);
+			path = IslandCompass;
+			sourceTree = "<group>";
+		};
+		EB390B6D28DB64E6006B42BA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EB390B6E28DB64E6006B42BA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EB390B7A28DB6538006B42BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB390B7B28DB6538006B42BA /* WidgetKit.framework */,
+				EB390B7D28DB6538006B42BA /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB390B7F28DB6538006B42BA /* IslandCompassWidget */ = {
+			isa = PBXGroup;
+			children = (
+				EB390B8028DB6538006B42BA /* IslandCompassWidget.swift */,
+				EB390B8228DB6538006B42BA /* IslandCompassWidget.intentdefinition */,
+				EB390B8328DB6539006B42BA /* Assets.xcassets */,
+				EB390B8528DB6539006B42BA /* Info.plist */,
+			);
+			path = IslandCompassWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB390B6228DB64E5006B42BA /* IslandCompass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB390B7228DB64E6006B42BA /* Build configuration list for PBXNativeTarget "IslandCompass" */;
+			buildPhases = (
+				EB390B5F28DB64E5006B42BA /* Sources */,
+				EB390B6028DB64E5006B42BA /* Frameworks */,
+				EB390B6128DB64E5006B42BA /* Resources */,
+				EB390B8E28DB6539006B42BA /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB390B8928DB6539006B42BA /* PBXTargetDependency */,
+			);
+			name = IslandCompass;
+			productName = IslandCompass;
+			productReference = EB390B6328DB64E5006B42BA /* IslandCompass.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB390B7828DB6538006B42BA /* IslandCompassWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB390B8B28DB6539006B42BA /* Build configuration list for PBXNativeTarget "IslandCompassWidgetExtension" */;
+			buildPhases = (
+				EB390B7528DB6538006B42BA /* Sources */,
+				EB390B7628DB6538006B42BA /* Frameworks */,
+				EB390B7728DB6538006B42BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IslandCompassWidgetExtension;
+			productName = IslandCompassWidgetExtension;
+			productReference = EB390B7928DB6538006B42BA /* IslandCompassWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB390B5B28DB64E5006B42BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					EB390B6228DB64E5006B42BA = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					EB390B7828DB6538006B42BA = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = EB390B5E28DB64E5006B42BA /* Build configuration list for PBXProject "IslandCompass" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB390B5A28DB64E5006B42BA;
+			productRefGroup = EB390B6428DB64E5006B42BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB390B6228DB64E5006B42BA /* IslandCompass */,
+				EB390B7828DB6538006B42BA /* IslandCompassWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB390B6128DB64E5006B42BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB390B6F28DB64E6006B42BA /* Preview Assets.xcassets in Resources */,
+				EB390B6B28DB64E6006B42BA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB390B7728DB6538006B42BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB390B8428DB6539006B42BA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB390B5F28DB64E5006B42BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB390B9428DB6723006B42BA /* CompassMarkerView.swift in Sources */,
+				EB390B6928DB64E5006B42BA /* ContentView.swift in Sources */,
+				EB390B9128DB6637006B42BA /* Markers.swift in Sources */,
+				EB390BA628DB90A5006B42BA /* IslandCompassApp.swift in Sources */,
+				EB390BA328DB8E4D006B42BA /* LockScreenView.swift in Sources */,
+				EB390B9728DB6B4E006B42BA /* CompassHeading.swift in Sources */,
+				EB390B8728DB6539006B42BA /* IslandCompassWidget.intentdefinition in Sources */,
+				EB390B9D28DB8122006B42BA /* ActivityAttributes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB390B7528DB6538006B42BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB390B9828DB6B4E006B42BA /* CompassHeading.swift in Sources */,
+				EB390B9E28DB8122006B42BA /* ActivityAttributes.swift in Sources */,
+				EB390BA428DB8E4D006B42BA /* LockScreenView.swift in Sources */,
+				EB390B8628DB6539006B42BA /* IslandCompassWidget.intentdefinition in Sources */,
+				EB390B9528DB6723006B42BA /* CompassMarkerView.swift in Sources */,
+				EB390B8128DB6538006B42BA /* IslandCompassWidget.swift in Sources */,
+				EB390B9228DB6637006B42BA /* Markers.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB390B8928DB6539006B42BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB390B7828DB6538006B42BA /* IslandCompassWidgetExtension */;
+			targetProxy = EB390B8828DB6539006B42BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EB390B7028DB64E6006B42BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB390B7128DB64E6006B42BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		EB390B7328DB64E6006B42BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = IslandCompass/IslandCompass.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IslandCompass/Preview Content\"";
+				DEVELOPMENT_TEAM = R8Q8DM58C6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IslandCompass/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Island Compass";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Need it boo";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nmolargik.IslandCompass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EB390B7428DB64E6006B42BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = IslandCompass/IslandCompass.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"IslandCompass/Preview Content\"";
+				DEVELOPMENT_TEAM = R8Q8DM58C6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IslandCompass/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Island Compass";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Need it boo";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nmolargik.IslandCompass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		EB390B8C28DB6539006B42BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R8Q8DM58C6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IslandCompassWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = IslandCompassWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nmolargik.IslandCompass.IslandCompassWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB390B8D28DB6539006B42BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R8Q8DM58C6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = IslandCompassWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = IslandCompassWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nmolargik.IslandCompass.IslandCompassWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB390B5E28DB64E5006B42BA /* Build configuration list for PBXProject "IslandCompass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB390B7028DB64E6006B42BA /* Debug */,
+				EB390B7128DB64E6006B42BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB390B7228DB64E6006B42BA /* Build configuration list for PBXNativeTarget "IslandCompass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB390B7328DB64E6006B42BA /* Debug */,
+				EB390B7428DB64E6006B42BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB390B8B28DB6539006B42BA /* Build configuration list for PBXNativeTarget "IslandCompassWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB390B8C28DB6539006B42BA /* Debug */,
+				EB390B8D28DB6539006B42BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB390B5B28DB64E5006B42BA /* Project object */;
+}
